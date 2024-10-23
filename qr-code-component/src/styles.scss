@@ -1,1 +1,85 @@
-/* You can add global styles to this file, and also import other style files */
+// -----------------------------------------------------
+// Global Styles for QR Code Component
+// -----------------------------------------------------
+
+// Typography
+$font-family: 'Outfit', sans-serif;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// Colors
+$color-white: hsl(0, 0%, 100%);
+$color-slate-300: hsl(212, 45%, 89%);
+$color-slate-500: hsl(216, 15%, 48%);
+$color-slate-900: hsl(218, 44%, 22%);
+
+// Layout Breakpoints
+$mobile-width: 375px;
+$desktop-width: 1440px;
+
+// Base Font Size
+$font-size-base: 15px;
+
+// Global resets or default styles
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family;
+  font-size: $font-size-base;
+  font-weight: $font-weight-normal;
+  line-height: 1.6;
+  color: $color-slate-900;
+  background-color: $color-slate-300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-bold;
+  color: $color-slate-900;
+}
+
+p {
+  font-size: $font-size-base;
+  color: $color-slate-500;
+  margin-bottom: 1rem;
+}
+
+// Utility classes for margin and padding
+.m-0 {
+  margin: 0;
+}
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+.mb-2 {
+  margin-bottom: 1rem;
+}
+.p-1 {
+  padding: 0.5rem;
+}
+.p-2 {
+  padding: 1rem;
+}
+
+// Media queries
+@media (min-width: $mobile-width) {
+  body {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  body {
+    padding: 2rem;
+  }
+}
