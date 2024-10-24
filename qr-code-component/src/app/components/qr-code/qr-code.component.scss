@@ -3,9 +3,31 @@
 .qr-component {
   background-color: $color-white;
   padding: 1.6rem;
+  border-radius: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 32rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  img {
-    width: 100%;
-    max-width: 28.8rem;
+  .card {
+    img {
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      width: 100%;
+      max-width: 28.8rem;
+      margin: 0 auto;
+    }
+
+    .content {
+      padding: 3rem 1rem;
+      text-align: center;
+
+      h2 {
+        font-weight: 900;
+        line-height: 1.2;
+      }
+    }
   }
 }
