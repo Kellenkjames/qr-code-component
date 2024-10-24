@@ -1,15 +1,21 @@
 @import '../../../styles.scss';
 
 .qr-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: $color-white;
   padding: 1.6rem;
   border-radius: 2rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 32rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 
   .card {
     img {
@@ -27,6 +33,10 @@
       h2 {
         font-weight: 900;
         line-height: 1.2;
+
+        @media (max-width: $small-mobile-width) {
+          font-size: 1.9rem;
+        }
       }
     }
   }

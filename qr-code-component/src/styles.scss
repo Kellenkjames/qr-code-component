@@ -1,5 +1,5 @@
 // -----------------------------------------------------
-// Global Styles for QR Code Component
+// Global Styles
 // -----------------------------------------------------
 
 // Set the root font-size for easy rem calculations (1 rem = 10px)
@@ -19,8 +19,11 @@ $color-slate-500: hsl(216, 15%, 48%);
 $color-slate-900: hsl(218, 44%, 22%);
 
 // Layout Breakpoints
+$small-mobile-width: 20rem; // 320px (very small mobile devices)
 $mobile-width: 37.5rem; // 375px
-$desktop-width: 144rem; // 1440px
+$tablet-width: 48rem; // 768px (tablet)
+$medium-width: 64rem; // 1024px (medium screens)
+$desktop-width: 144rem; // 1440px (desktop)
 
 // Base Font Size
 $font-size-base: 1.5rem; // 15px
@@ -79,17 +82,4 @@ img {
 }
 .p-2 {
   padding: 1rem;
-}
-
-// Media queries
-@media (min-width: $mobile-width) {
-  body {
-    padding: 1rem;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  body {
-    padding: 2rem;
-  }
 }
