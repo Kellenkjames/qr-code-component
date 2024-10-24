@@ -1,0 +1,11 @@
+@import '../../../styles.scss';
+
+.qr-component {
+  background-color: $color-white;
+  padding: 1.6rem;
+
+  img {
+    width: 28.8rem;
+    height: 28.8rem;
+  }
+}

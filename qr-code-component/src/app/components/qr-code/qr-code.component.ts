@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './qr-code.component.html',
-  styleUrl: './qr-code.component.scss'
+  styleUrl: './qr-code.component.scss',
 })
 export class QrCodeComponent {
-
+  qrCodeImage: string = 'assets/image-qr-code.png';
 }
