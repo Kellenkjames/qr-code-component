@@ -2,6 +2,11 @@
 // Global Styles for QR Code Component
 // -----------------------------------------------------
 
+// Set the root font-size for easy rem calculations (1 rem = 10px)
+html {
+  font-size: 62.5%; // 62.5% of the default 16px = 10px
+}
+
 // Typography
 $font-family: 'Outfit', sans-serif;
 $font-weight-normal: 400;
@@ -14,11 +19,11 @@ $color-slate-500: hsl(216, 15%, 48%);
 $color-slate-900: hsl(218, 44%, 22%);
 
 // Layout Breakpoints
-$mobile-width: 375px;
-$desktop-width: 1440px;
+$mobile-width: 37.5rem; // 375px
+$desktop-width: 144rem; // 1440px
 
 // Base Font Size
-$font-size-base: 15px;
+$font-size-base: 1.5rem; // 15px
 
 // Global resets or default styles
 *,
