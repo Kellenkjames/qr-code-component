@@ -14,7 +14,7 @@
   transition: transform 0.3s ease-in-out;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   .card {
@@ -41,6 +41,10 @@
 
       p {
         font-size: 1.6rem;
+
+        @media (max-width: $small-mobile-width) {
+          font-size: 1.4rem;
+        }
       }
     }
   }
