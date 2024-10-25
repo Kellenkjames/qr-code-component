@@ -7,6 +7,18 @@ html {
   font-size: 62.5%; // 62.5% of the default 16px = 10px
 }
 
+@font-face {
+  font-family: 'Outfit';
+  font-weight: 400;
+  src: url('assets/fonts/static/Outfit-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-weight: 700;
+  src: url('assets/fonts/static/Outfit-Bold.ttf') format('truetype');
+}
+
 // Typography
 $font-family: 'Outfit', sans-serif;
 $font-weight-normal: 400;
