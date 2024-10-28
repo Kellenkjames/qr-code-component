@@ -11,6 +11,12 @@ This project is part of a larger effort to continuously improve frontend develop
 - Implements a static card layout for showcasing a QR code, adhering closely to the design specifications provided.
 - Clean, simple, and responsive design optimized for both desktop and mobile views.
 
+## Screenshot
+
+Here is a preview of the QR Code Component:
+
+![QR Code Component Screenshot](./qr-code-component/src/assets/final-screenshot.png)
+
 ## Technologies Used
 
 - **Angular** - A powerful JavaScript framework for building component-driven web applications.
