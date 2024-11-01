@@ -1,0 +1,11 @@
+@import '../../../styles.scss';
+
+.qr-image {
+  &__img {
+    border-radius: 1rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 28.8rem;
+    margin: 0 auto;
+  }
+}
