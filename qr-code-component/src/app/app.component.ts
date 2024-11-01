@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { QrCodeComponent } from './components/qr-code/qr-code.component';
+import { QrCardComponent } from './components/qr-card/qr-card.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [QrCodeComponent],
+  imports: [QrCardComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
