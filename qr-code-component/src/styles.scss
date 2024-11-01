@@ -30,6 +30,23 @@ $color-slate-300: hsl(212, 45%, 89%);
 $color-slate-500: hsl(216, 15%, 48%);
 $color-slate-900: hsl(218, 44%, 22%);
 
+// Typography Mixins
+@mixin text-preset-1 {
+  font-family: $font-family;
+  font-weight: $font-weight-bold;
+  font-size: 2.2rem; // 22px
+  line-height: 1.2; // 120%
+  letter-spacing: 0;
+}
+
+@mixin text-preset-2 {
+  font-family: $font-family;
+  font-weight: $font-weight-normal;
+  font-size: 1.5rem; // 15px
+  line-height: 1.4; // 140%
+  letter-spacing: 0.2;
+}
+
 // Layout Breakpoints
 $small-mobile-width: 20rem; // 320px (very small mobile devices)
 $mobile-width: 37.5rem; // 375px
@@ -38,7 +55,7 @@ $medium-width: 64rem; // 1024px (medium screens)
 $desktop-width: 144rem; // 1440px (desktop)
 
 // Base Font Size
-$font-size-base: 1.5rem; // 16px
+$font-size-base: 1.6rem; // 16px
 
 // Global resets or default styles
 *,
@@ -60,16 +77,12 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   font-weight: $font-weight-bold;
   color: $color-slate-900;
 }
 
 p {
-  font-size: $font-size-base;
   color: $color-slate-500;
 }
 
@@ -79,22 +92,112 @@ img {
   height: auto;
 }
 
-// Utility classes for margin and padding
-.m-0 {
-  margin: 0;
+// -----------------------------------------------------
+// Spacing Variables
+// -----------------------------------------------------
+
+$spacing-lg: 4rem; // 40px
+$spacing-md: 2.4rem; // 24px
+$spacing-sm: 1.6rem; // 16px
+
+// Utility classes for padding (all sides)
+.p-lg {
+  padding: $spacing-lg;
 }
-.mb-1 {
-  margin-bottom: 0.5rem;
+.p-md {
+  padding: $spacing-md;
 }
-.mb-2 {
-  margin-bottom: 1rem;
+.p-sm {
+  padding: $spacing-sm;
 }
-.mb-3 {
-  margin-bottom: 1.5rem;
+
+// Padding directional classes
+.pt-lg {
+  padding-top: $spacing-lg;
 }
-.p-1 {
-  padding: 0.5rem;
+.pb-lg {
+  padding-bottom: $spacing-lg;
 }
-.p-2 {
-  padding: 1rem;
+.pl-lg {
+  padding-left: $spacing-lg;
+}
+.pr-lg {
+  padding-right: $spacing-lg;
+}
+
+.pt-md {
+  padding-top: $spacing-md;
+}
+.pb-md {
+  padding-bottom: $spacing-md;
+}
+.pl-md {
+  padding-left: $spacing-md;
+}
+.pr-md {
+  padding-right: $spacing-md;
+}
+
+.pt-sm {
+  padding-top: $spacing-sm;
+}
+.pb-sm {
+  padding-bottom: $spacing-sm;
+}
+.pl-sm {
+  padding-left: $spacing-sm;
+}
+.pr-sm {
+  padding-right: $spacing-sm;
+}
+
+// Utility classes for margin (all sides)
+.m-lg {
+  margin: $spacing-lg;
+}
+.m-md {
+  margin: $spacing-md;
+}
+.m-sm {
+  margin: $spacing-sm;
+}
+
+// Margin directional classes
+.mt-lg {
+  margin-top: $spacing-lg;
+}
+.mb-lg {
+  margin-bottom: $spacing-lg;
+}
+.ml-lg {
+  margin-left: $spacing-lg;
+}
+.mr-lg {
+  margin-right: $spacing-lg;
+}
+
+.mt-md {
+  margin-top: $spacing-md;
+}
+.mb-md {
+  margin-bottom: $spacing-md;
+}
+.ml-md {
+  margin-left: $spacing-md;
+}
+.mr-md {
+  margin-right: $spacing-md;
+}
+
+.mt-sm {
+  margin-top: $spacing-sm;
+}
+.mb-sm {
+  margin-bottom: $spacing-sm;
+}
+.ml-sm {
+  margin-left: $spacing-sm;
+}
+.mr-sm {
+  margin-right: $spacing-sm;
 }
