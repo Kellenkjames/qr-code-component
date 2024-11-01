@@ -10,7 +10,7 @@ import { QrImageComponent } from '../qr-image/qr-image.component';
   styleUrls: ['./qr-card.component.scss'],
 })
 export class QrCardComponent {
-  imageUrl: string = 'assets/image-qr-code.png';
+  imageUrl: string = 'assets/images/image-qr-code.png';
   title: string = 'Improve your front-end skills by building projects';
   description: string =
     'Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.';

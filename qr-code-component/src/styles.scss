@@ -10,13 +10,13 @@ html {
 @font-face {
   font-family: 'Outfit';
   font-weight: 400;
-  src: url('assets/fonts/static/Outfit-Regular.ttf') format('truetype');
+  src: url('./assets/fonts/static/Outfit-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Outfit';
   font-weight: 700;
-  src: url('assets/fonts/static/Outfit-Bold.ttf') format('truetype');
+  src: url('./assets/fonts/static/Outfit-Bold.ttf') format('truetype');
 }
 
 // Typography
