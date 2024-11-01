@@ -34,13 +34,24 @@ The project is organized following a modular and scalable approach:
 
 To run this project locally:
 
-1. Clone the repository: `git clone https://github.com/kellenkjames/qr-code-component.git`
+#### 1. Clone the repository:
+```bash
+git clone https://github.com/kellenkjames/qr-code-component.git
+```
+#### 2. Navigate to the project directory:
+```bash
+cd qr-code-component
+```
 
-2. Navigate to the project directory: `cd qr-code-component`
+#### 3. Install the dependencies:
+```bash
+npm install
+```
 
-3. Install the dependencies: `npm install`
-
-4. Start the Angular development server: `ng serve`
+#### 4. Start the Angular development server:
+```bash
+ng serve
+```
 
 The project will be available on `http://localhost:4200`.
 
