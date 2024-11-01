@@ -1,0 +1,11 @@
+@import '../../../styles.scss';
+
+.qr-content {
+  &__title {
+    @include text-preset-1;
+  }
+
+  &__description {
+    @include text-preset-2;
+  }
+}

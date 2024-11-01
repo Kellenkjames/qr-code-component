@@ -44,7 +44,11 @@ $color-slate-900: hsl(218, 44%, 22%);
   font-weight: $font-weight-normal;
   font-size: 1.5rem; // 15px
   line-height: 1.4; // 140%
-  letter-spacing: 0.2;
+  letter-spacing: 0.2px;
+}
+
+@mixin box-shadow-1 {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 // Layout Breakpoints
