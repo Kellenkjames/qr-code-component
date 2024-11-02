@@ -15,7 +15,7 @@ This project is part of a larger effort to continuously improve frontend develop
 
 Here is a preview of the QR Code Component:
 
-![QR Code Component Screenshot](./qr-code-component/src/assets/final-screenshot.png)
+![QR Code Component Screenshot](./qr-code-component/src/assets/images/final-screenshot.png)
 
 ## Technologies Used
 
